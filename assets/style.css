@@ -1,0 +1,87 @@
+a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+div.shapely {
+  font-size: 24px;
+  cursor: pointer;
+}
+nav :hover {
+  color: blue;
+}
+nav :active {
+  color: black;
+}
+.title {
+  font-weight: 400;
+}
+div.container {
+  font-family: "Raleway", sans-serif;
+}
+section.parallax {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5ea71033e47a100a9750e0f0/1588859908060-QW3Q6GGO1EYUOLPQ82FL/wave-1913559_1920.jpg);
+  height: 800px;
+  width: 1500px;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.title {
+  font-size: 50px;
+}
+.paragraph {
+  font-size: 20px;
+}
+#readmore {
+  background-color: slateblue;
+  border-style: none;
+  color: white;
+  height: 50px;
+  width: 160px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#downloadnow {
+  background: none;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+
+  color: white;
+  height: 50px;
+  width: 160px;
+}
+img {
+  width: 650px;
+}
+section.computer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.second-paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  color: grey;
+  font-size: 50x;
+}
+.second-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
