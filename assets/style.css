@@ -1,3 +1,6 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
 a {
   text-decoration: none;
   color: #4c4c4c;
@@ -6,12 +9,17 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 20px 0px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  padding: 10px 0px;
 }
 ul {
   display: flex;
   gap: 30px;
   list-style-type: none;
-  font-size: 13px;
+  font-size: 15px;
   cursor: pointer;
 }
 div.shapely {
@@ -27,9 +35,7 @@ nav :active {
 .title {
   font-weight: 400;
 }
-div.container {
-  font-family: "Raleway", sans-serif;
-}
+
 section.parallax {
   background-image: url(./images/photo-1443527216320-7e744084f5a7-1.jpg);
   height: 800px;
@@ -49,7 +55,7 @@ section.parallax {
   font-size: 20px;
 }
 #readmore {
-  background-color: slateblue;
+  background-color: #745cf9;
   border-style: none;
   color: white;
   height: 50px;
@@ -84,4 +90,20 @@ section.computer {
 .second-title {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+}
+#readmore:hover {
+  background-color: #5d47d7;
+}
+#downloadnow:hover {
+  background-color: white;
+  color: black;
+}
+#read-more {
+  background-color: slateblue;
+  border-style: none;
+  color: white;
+  height: 50px;
+  width: 160px;
+  cursor: pointer;
+  margin-top: 20px;
 }
