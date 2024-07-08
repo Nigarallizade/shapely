@@ -14,9 +14,6 @@ header {
   background-color: white;
   padding: 10px 0px;
 }
-.about-the-tests {
-  position: relative;
-}
 li ul {
   position: absolute;
   top: 30px;
@@ -24,8 +21,6 @@ li ul {
   flex-direction: column;
   gap: 10px;
   padding: 10px 20px;
-  border-style: solid;
-  color: whitesmoke;
   background-color: white;
   width: 150px;
   height: 150px;
@@ -35,6 +30,7 @@ li ul {
 .about-the-tests:hover .lists {
   opacity: 1;
   visibility: visible;
+  position: relative;
 }
 ul {
   display: flex;
@@ -79,15 +75,7 @@ section.parallax {
 .paragraph {
   font-size: 20px;
 }
-#readmore {
-  background-color: #745cf9;
-  border-style: none;
-  color: white;
-  height: 50px;
-  width: 160px;
-  cursor: pointer;
-  margin-top: 20px;
-}
+
 #downloadnow {
   background: none;
   border-style: solid;
@@ -116,14 +104,14 @@ section.computer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
-#readmore:hover {
+.read-more:hover {
   background-color: #5d47d7;
 }
 #downloadnow:hover {
   background-color: white;
   color: black;
 }
-#read-more {
+.read-more {
   background-color: slateblue;
   border-style: none;
   color: white;
@@ -133,6 +121,17 @@ section.computer {
   margin-top: 20px;
   font-weight: bold;
 }
+
 .search {
   color: blue;
+}
+
+.arrow-down {
+  font-size: 7px;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+.list-with-arrow {
+  position: relative;
 }
