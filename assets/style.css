@@ -3,7 +3,6 @@
 }
 a {
   text-decoration: none;
-  color: #4c4c4c;
 }
 header {
   display: flex;
@@ -15,16 +14,42 @@ header {
   background-color: white;
   padding: 10px 0px;
 }
+.about-the-tests {
+  position: relative;
+}
+li ul {
+  position: absolute;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+  border-style: solid;
+  color: whitesmoke;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  opacity: 0;
+  visibility: hidden;
+}
+.about-the-tests:hover .lists {
+  opacity: 1;
+  visibility: visible;
+}
 ul {
   display: flex;
   gap: 30px;
   list-style-type: none;
-  font-size: 15px;
+  font-size: 13px;
   cursor: pointer;
+  color: #4c4c4c;
+  padding: 0px;
 }
+
 div.shapely {
   font-size: 24px;
   cursor: pointer;
+  color: #4c4c4c;
 }
 nav :hover {
   color: blue;
@@ -89,7 +114,7 @@ section.computer {
 }
 .second-title {
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 #readmore:hover {
   background-color: #5d47d7;
@@ -106,4 +131,8 @@ section.computer {
   width: 160px;
   cursor: pointer;
   margin-top: 20px;
+  font-weight: bold;
+}
+.search {
+  color: blue;
 }
